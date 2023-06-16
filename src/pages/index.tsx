@@ -1,5 +1,7 @@
 import styles from '../styles/home.module.scss';
 import Head from 'next/head';
+import Image from 'next/image';
+import techsImage from '../../public/images/techs.svg';
 
 export default function Home() {
   return (
@@ -48,6 +50,18 @@ export default function Home() {
               Praesentium dolores molestias{' '}
             </span>
           </section>
+        </div>
+        <div className={styles.nextLevelContent}>
+          <Image quality={100} src={techsImage} alt="Tecnologias" />
+          <h2>
+            Mais de <span>15 mil</span> acompanham o blog diariamente.
+          </h2>
+          <span>
+            E voceê vai perder a chance de evoluir cada vez mais todos os dias?
+          </span>
+          <a>
+            <button>COMEÇAR AGORA!</button>
+          </a>
         </div>
       </main>
     </>
