@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
-import logo from '../../../public/images/logo-blog.png';
+import logo from '../../../public/images/logo.svg';
 import Link from 'next/link';
 import { ActiveLink } from '../ActiveLink';
 
