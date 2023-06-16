@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Apaixonado por Tencologia - Brenner Paiva</title>
+        <title>Blog FrontEnd</title>
       </Head>
       <main className={styles.container}>
         <div className={styles.containerHeader}>
@@ -21,6 +21,33 @@ export default function Home() {
             </a>
           </section>
           <img src="/images/banner-conteudos.png" alt="Conteúdos" />
+        </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <section>
+            <h2>Aprenda a criar aplicativos Android e Ios</h2>
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium dolores molestias{' '}
+            </span>
+          </section>
+
+          <img src="/images/financasApp.png" alt="Conteúdo Mobile" />
+        </div>
+
+        <hr className={styles.divisor} />
+
+        <div className={styles.sectionContent}>
+          <img src="/images/webDev.png" alt="Conteúdo Web" />
+          <section>
+            <h2>Aprenda a criar Sistemas Web</h2>
+            <span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Praesentium dolores molestias{' '}
+            </span>
+          </section>
         </div>
       </main>
     </>
