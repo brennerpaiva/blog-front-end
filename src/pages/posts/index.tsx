@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import style from './styles.module.scss';
 import Link from 'next/link';
@@ -25,8 +26,9 @@ interface PostProps {
   posts: Posts[];
 }
 
-export default function Posts({ posts }: PostProps) {
-  console.log(posts);
+export default function Posts({ posts: postsBlog }: PostProps) {
+  const [posts, setPost] = useState(postsBlog || []);
+
   return (
     <>
       <Head>
@@ -34,25 +36,22 @@ export default function Posts({ posts }: PostProps) {
       </Head>
       <main className={style.container}>
         <div className={style.posts}>
-          <Link href="/">
-            <span>
-              <Image
-                src={thumbImg}
-                alt="post-1"
-                width={720}
-                height={410}
-                quality={100}
-              />
-              <strong>Criando meu primeiro aplicativo</strong>
-              <time>14 de fevereiro 2023</time>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Repellat, quaerat necessitatibus ipsum tempore aut odit beatae,
-                expedita at maiores officiis numquam asperiores maxime. Dolore
-                accusantium ex facilis maiores odit dignissimos?
-              </p>
-            </span>
-          </Link>
+          {posts.map((post) => (
+            <Link key={post.slug} href={`/posts/${post.slug}`}>
+              <span key={post.slug}>
+                <Image
+                  src={post.cover}
+                  alt={post.title}
+                  width={720}
+                  height={410}
+                  quality={100}
+                />
+                <strong>{post.title}</strong>
+                <time>{post.updatedAt}</time>
+                <p>{post.description}</p>
+              </span>
+            </Link>
+          ))}
 
           <div className={style.buttonNavigate}>
             <div>
