@@ -61,10 +61,13 @@
   justify-content: center;
   color: #f17638;
   font-weight: bold;
-  transition: filter 0.2s;
+  transition: all 0.3s;
 
   &:hover{
-    filter: brightness(1.1)
+    background: #f25a35;
+    color: var(--white);
+    border: 2px solid #f25a35;
+
   }
 }
 
