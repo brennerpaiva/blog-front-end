@@ -1,12 +1,22 @@
 .container{
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 2rem;
+    padding: 2rem 2rem;
+
+    h1{
+        color: var(--white);
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
 }
 
 .posts{
     max-width: 720px;
-    margin: 5rem auto;
+    margin: 2rem auto;
 
     a {
         display: block;
@@ -20,15 +30,16 @@
         font-size: 1rem;
         display: flex;
         align-items: center;
-        color: var(--gray-200);
+        color: var(--gray-100);
     }
     
     img{
         max-width: 100%;
         max-height: 410px;
-        border: 2px solid var(--orange);
+        border: 3px solid var(--gray-200);
         border-radius: 6px;
-        border-image: linear-gradient(95deg, var(--orange), trasparent) 1 ;
+        object-fit: cover;
+        margin-top: 2rem;
     }
 
     strong{

@@ -19,7 +19,10 @@ export default function About() {
               facere! Sapiente officia rerum molestias eius libero, ipsum
               asperiores vero dolorum, mollitia, sunt assumenda.
             </p>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/brenner-paiva1/"
+              target="_blank"
+            >
               <FaLinkedin />
             </a>
           </section>

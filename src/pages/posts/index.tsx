@@ -89,6 +89,7 @@ export default function Posts({
         <title>Blog Front-End</title>
       </Head>
       <main className={style.container}>
+        <h1>Nossos Conteúdos</h1>
         <div className={style.posts}>
           {posts.map((post) => (
             <Link key={post.slug} href={`/posts/${post.slug}`}>

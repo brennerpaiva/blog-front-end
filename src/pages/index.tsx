@@ -56,7 +56,7 @@ export default function Home({ content }: ContentProps) {
         <div className={styles.nextLevelContent}>
           <Image quality={100} src={techsImage} alt="Tecnologias" />
           <h2>
-            Mais de <span>15 mil</span> acompanham o blog diariamente.
+            Mais de <span>10 mil</span> acompanham o blog diariamente.
           </h2>
           <span>
             Não perca a chance de evoluir cada vez mais? Venha fazer parte da
