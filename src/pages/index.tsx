@@ -59,7 +59,7 @@ export default function Home({ content }: ContentProps) {
             Mais de <span>10 mil</span> acompanham o blog diariamente.
           </h2>
           <span>
-            Não perca a chance de evoluir cada vez mais? Venha fazer parte da
+            Não perca a chance de evoluir cada vez mais e venha fazer parte da
             nossa comunidade!
           </span>
           <a href="/posts">
