@@ -30,14 +30,12 @@ export default function Home({ content }: ContentProps) {
           <section className={styles.ctaText}>
             <h1>{content.title}</h1>
             <span>{content.titleContent} </span>
-            <a>
+            <a href="/posts">
               <button>COMEÇAR AGORA!</button>
             </a>
           </section>
           <img src="/images/home.png" alt="Conteúdos" />
         </div>
-
-        <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
           <section>
@@ -47,8 +45,6 @@ export default function Home({ content }: ContentProps) {
 
           <img src={content.section1Banner} alt="Conteúdo Mobile" />
         </div>
-
-        <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
           <img src={content.section2Banner} alt="Conteúdo Web" />
@@ -63,9 +59,10 @@ export default function Home({ content }: ContentProps) {
             Mais de <span>15 mil</span> acompanham o blog diariamente.
           </h2>
           <span>
-            E voceê vai perder a chance de evoluir cada vez mais todos os dias?
+            Não perca a chance de evoluir cada vez mais? Venha fazer parte da
+            nossa comunidade!
           </span>
-          <a>
+          <a href="/posts">
             <button>COMEÇAR AGORA!</button>
           </a>
         </div>

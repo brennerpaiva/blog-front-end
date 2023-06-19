@@ -22,6 +22,7 @@
     h1 {
         font-size: 3.5rem ;
         line-height: 4.5rem;
+        margin-bottom: 2rem;
         font-weight: 900;
         margin-top: 2.5rem;
         color: var(--white);
@@ -33,7 +34,7 @@
     }
     button{
         background: rgb(242,90,53);
-        background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(241,118,56,1) 52%, rgba(241,140,58,1) 100%);
+        background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(241,118,56,1) 86%, rgba(241,140,58,1) 100%);
         border: 0;
         border-radius: 7px;
         margin-top: 2.5rem;
@@ -71,6 +72,7 @@
         line-height: 4.5rem;
         font-weight: 900;
         margin-top: 2.2rem;
+        margin-bottom: 1rem;
         color: var(--white);
     }
 
@@ -110,7 +112,7 @@
 
     button{
         background: rgb(242,90,53);
-background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(241,118,56,1) 52%, rgba(241,140,58,1) 100%);
+        background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(241,118,56,1) 86%, rgba(241,140,58,1) 100%);
         border: 0;
         padding: 1rem 1.8rem;
         margin-top: 2.5rem;
@@ -157,6 +159,7 @@ background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(2
 
             button{
                 margin: 0 auto;
+                margin-top: 1rem;
             }
             
             div img {
@@ -167,6 +170,10 @@ background: linear-gradient(94deg, rgba(242,90,53,0.9136904761904762) 2%, rgba(2
             }
             h2{ 
                 font-size: 1rem;
+            }
+            img{
+                margin-top: 2rem;
+                max-width: 300px;
             }
         }
         .sectionContent{

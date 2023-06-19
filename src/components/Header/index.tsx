@@ -24,7 +24,7 @@ export default function Header() {
           </ActiveLink>
         </nav>
 
-        <a className={styles.readyButton} type="button" href="#">
+        <a className={styles.readyButton} type="button" href="/posts">
           COMEÇAR
         </a>
       </div>
