@@ -1,7 +1,7 @@
 import styles from '../styles/home.module.scss';
 import Head from 'next/head';
 import Image from 'next/image';
-import techsImage from '../../public/images/techs.svg';
+import techsImage from '../../public/images/logo.png';
 import { GetStaticProps } from 'next';
 import { getPrismicClient } from '@/services/prismic';
 import Prismic from '@prismicio/client';
@@ -34,7 +34,7 @@ export default function Home({ content }: ContentProps) {
               <button>COMEÇAR AGORA!</button>
             </a>
           </section>
-          <img src="/images/banner-conteudos.png" alt="Conteúdos" />
+          <img src="/images/home.png" alt="Conteúdos" />
         </div>
 
         <hr className={styles.divisor} />
