@@ -11,7 +11,7 @@
 
     img{
         max-width: 100%;
-        max-height: 410px;
+        max-height: 300px;
         border-radius: 15px;
         object-fit: contain;
     }
@@ -52,5 +52,12 @@
 
     a:hover{ 
         color: var(--yellow);
+    }
+}
+
+@media (max-width: 768px) {
+    .post {
+        margin: auto 0;
+
     }
 }

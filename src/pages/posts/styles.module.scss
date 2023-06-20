@@ -47,16 +47,13 @@
         font-size: 1.5rem;
         margin: 1rem 0;
         line-height: 2rem;
-        color: var(--white);
+        color: var(--orange);
         transition: color 0.3s;
     }
     p {
         color: var(--white);
         margin-top: 0.5rem;
         line-height: 1.62rem;
-    }
-    &:hover strong{ 
-        color: var(--orange);
     }
 }
 
@@ -85,4 +82,14 @@
         padding: 0 3px;
         font-size: 1.5rem;
     }
+}
+
+@media (max-width: 768px) { 
+
+.posts{ 
+    img{
+        max-width: 100%;
+        max-height: 280px;
+    }
+}
 }
