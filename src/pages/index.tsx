@@ -23,7 +23,7 @@ export default function Home({ content }: ContentProps) {
   return (
     <>
       <Head>
-        <title>Blog FrontEnd</title>
+        <title>FrontEnd Insights</title>
       </Head>
       <main className={styles.container}>
         <div className={styles.containerHeader}>

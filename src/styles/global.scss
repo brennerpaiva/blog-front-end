@@ -7,9 +7,9 @@
 :root{ 
     --white: #fff;
     
+    --blue-700: #18294d;
+    --blue-900: #020c29;
     --gray-100: #AFAFAF;
-    --gray-200: #142342;
-    --gray-700: #020c29;
     --gray-900: #111113;
 
     --orange: #F25835;
@@ -29,7 +29,7 @@
 }
 
 body{
-    background: var(--gray-700);
+    background: var(--blue-900);
 }
 
 body, input, textarea, select, button{

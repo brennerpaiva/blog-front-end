@@ -11,9 +11,10 @@
 
     img{
         max-width: 100%;
-        max-height: 300px;
-        border-radius: 15px;
-        object-fit: contain;
+        max-height: 340px;
+        object-fit: cover;
+        border: 3px solid var(--blue-700);
+        border-radius: 8px;
     }
     h1{
         font-size: 2rem;

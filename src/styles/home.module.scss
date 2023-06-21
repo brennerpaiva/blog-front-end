@@ -40,7 +40,7 @@
         padding: 1rem 1.8rem;  
         color: var(--white);
         font-weight: bold;
-        transition: all 0.3s;
+        transition: filter 0.5s;
     }
     button:hover{
         filter: saturate(1.2);
@@ -121,7 +121,7 @@
         border-radius: 6px;
         color: var(--white);
         font-weight: bold;
-        transition: all 0.3s;
+        transition: filter 0.5s;
     }
     button:hover{
         filter: saturate(1.2);

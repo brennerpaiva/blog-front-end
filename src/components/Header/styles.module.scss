@@ -1,8 +1,8 @@
 
 .headerContainer{
   height: 6rem;
-  border-bottom: 1px solid var(--gray-200);
-  background: var(--gray-700);
+  border-bottom: 1px solid var(--blue-700);
+  background: var(--blue-900);
 }
 
 .headerContent{
@@ -52,7 +52,8 @@
   margin-left: auto;
   height: 3rem;
   border-radius: 3rem;
-  background: linear-gradient(var(--gray-700), var(--gray-700)) padding-box, linear-gradient(to right, #f25a35, #f17638, #f18c3a) border-box;
+  background: #f25a35;
+  background: linear-gradient(var(--blue-900), var(--blue-900)) padding-box, linear-gradient(to right, #f25a35, #f17638, #f18c3a) border-box;
   border: 2.5px solid transparent;
   padding: 0 1.5rem;
   display: flex;
