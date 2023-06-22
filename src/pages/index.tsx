@@ -17,6 +17,7 @@ interface ContentProps {
   section2Title: string;
   section2Content: string;
   section2Banner: string;
+  content: any;
 }
 
 export default function Home({ content }: ContentProps) {
