@@ -46,10 +46,19 @@ export const getServerSideProps: GetServerSideProps = async ({
   req,
   params,
 }) => {
-  const { slug } = params;
+  if (!params) {
+    return {
+      redirect: {
+        destination: '/posts',
+        permanent: false,
+      },
+    };
+  }
+  const slug = params.slug;
   const prismic = getPrismicClient(req);
 
   const response = await prismic.getByUID('post', String(slug), {});
+  console.log(response);
 
   if (!response) {
     return {
@@ -65,14 +74,13 @@ export const getServerSideProps: GetServerSideProps = async ({
     title: RichText.asText(response.data.title),
     description: RichText.asHtml(response.data.description),
     cover: response.data.cover.url,
-    updatedAt: new Date(response.last_publication_date).toLocaleDateString(
-      'pt-BR',
-      {
-        day: '2-digit',
-        month: 'long',
-        year: 'numeric',
-      }
-    ),
+    updatedAt: response.last_publication_date
+      ? new Date(response.last_publication_date).toLocaleDateString('pt-BR', {
+          day: '2-digit',
+          month: 'long',
+          year: 'numeric',
+        })
+      : '',
   };
 
   return {

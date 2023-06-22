@@ -3,7 +3,6 @@ import Head from 'next/head';
 import style from './styles.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
-import thumbImg from '../../../public/images/thumb.png';
 import {
   FiChevronRight,
   FiChevronsRight,
@@ -62,20 +61,20 @@ export default function Posts({
 
     const getPosts = response.results.map((post) => {
       return {
-        slug: post.uid,
+        slug: post.uid ?? '',
         title: RichText.asText(post.data.title),
         description:
-          post.data.description.find((content) => content.type === 'paragraph')
-            ?.text ?? '',
+          post.data.description.find(
+            (content: { type: string }) => content.type === 'paragraph'
+          )?.text ?? '',
         cover: post.data.cover.url,
-        updatedAt: new Date(post.last_publication_date).toLocaleDateString(
-          'pt-BR',
-          {
-            day: '2-digit',
-            month: 'long',
-            year: 'numeric',
-          }
-        ),
+        updatedAt: post.last_publication_date
+          ? new Date(post.last_publication_date).toLocaleDateString('pt-BR', {
+              day: '2-digit',
+              month: 'long',
+              year: 'numeric',
+            })
+          : '',
       };
     });
 
@@ -114,14 +113,14 @@ export default function Posts({
                 <button onClick={() => navigatePage(1)}>
                   <FiChevronsLeft />
                 </button>
-                <button onClick={() => navigatePage(parseInt(currentPage - 1))}>
+                <button onClick={() => navigatePage(currentPage - 1)}>
                   <FiChevronLeft />
                 </button>
               </div>
             )}
             {Number(currentPage) < Number(totalPage) && (
               <div>
-                <button onClick={() => navigatePage(parseInt(currentPage + 1))}>
+                <button onClick={() => navigatePage(currentPage + 1)}>
                   <FiChevronRight />
                 </button>
                 <button onClick={() => navigatePage(parseInt(totalPage))}>
@@ -153,17 +152,17 @@ export const getStaticProps: GetStaticProps = async () => {
       slug: post.uid,
       title: RichText.asText(post.data.title),
       description:
-        post.data.description.find((content) => content.type === 'paragraph')
-          ?.text ?? '',
+        post.data.description.find(
+          (content: { type: string }) => content.type === 'paragraph'
+        )?.text ?? '',
       cover: post.data.cover.url,
-      updatedAt: new Date(post.last_publication_date).toLocaleDateString(
-        'pt-BR',
-        {
-          day: '2-digit',
-          month: 'long',
-          year: 'numeric',
-        }
-      ),
+      updatedAt: post.last_publication_date
+        ? new Date(post.last_publication_date).toLocaleDateString('pt-BR', {
+            day: '2-digit',
+            month: 'long',
+            year: 'numeric',
+          })
+        : '',
     };
   });
 

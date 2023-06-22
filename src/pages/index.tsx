@@ -1,7 +1,6 @@
 import styles from '../styles/home.module.scss';
 import Head from 'next/head';
 import Image from 'next/image';
-import techsImage from '../../public/images/logo.png';
 import { GetStaticProps } from 'next';
 import { getPrismicClient } from '@/services/prismic';
 import Prismic from '@prismicio/client';

@@ -1,7 +1,6 @@
 import styles from './styles.module.scss';
 import Head from 'next/head';
 import { FaLinkedin } from 'react-icons/fa';
-import ImageAboutUs from '../../../public/images/about-us.png';
 
 export default function About() {
   return (
@@ -26,7 +25,7 @@ export default function About() {
               <FaLinkedin />
             </a>
           </section>
-          <img src="images/about-us.png" alt="texxxt" />
+          <img src="images/about-us.png" alt="about us" />
         </div>
       </main>
     </>
