@@ -39,20 +39,19 @@ export default function Home({ content }: ContentProps) {
         </div>
 
         <div className={styles.sectionContent}>
+          <img src={content.section1Banner} alt="Conteúdo Mobile" />
           <section>
             <h2>{content.section1Title}</h2>
             <span>{content.section1Content}</span>
           </section>
-
-          <img src={content.section1Banner} alt="Conteúdo Mobile" />
         </div>
 
         <div className={styles.sectionContent}>
-          <img src={content.section2Banner} alt="Conteúdo Web" />
           <section>
             <h2>{content.section2Title}</h2>
             <span>{content.section2Content}</span>
           </section>
+          <img src={content.section2Banner} alt="Conteúdo Web" />
         </div>
         <div className={styles.nextLevelContent}>
           <Image quality={100} src={FooterImage} alt="Tecnologias" />
