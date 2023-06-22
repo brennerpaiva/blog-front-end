@@ -25,6 +25,7 @@
     "@types/prismic-dom": "^2.1.1",
     "eslint": "8.42.0",
     "eslint-config-next": "13.4.5",
-    "eslint-config-react-app": "^7.0.1"
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-prettier": "^4.2.1"
   }
 }

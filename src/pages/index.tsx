@@ -1,6 +1,7 @@
 import styles from '../styles/home.module.scss';
 import Head from 'next/head';
 import Image from 'next/image';
+import FooterImage from '../../public/images/logo.png';
 import { GetStaticProps } from 'next';
 import { getPrismicClient } from '@/services/prismic';
 import Prismic from '@prismicio/client';
@@ -54,7 +55,7 @@ export default function Home({ content }: ContentProps) {
           </section>
         </div>
         <div className={styles.nextLevelContent}>
-          <Image quality={100} src={techsImage} alt="Tecnologias" />
+          <Image quality={100} src={FooterImage} alt="Tecnologias" />
           <h2>
             Mais de <span>10 mil</span> acompanham o blog diariamente.
           </h2>
