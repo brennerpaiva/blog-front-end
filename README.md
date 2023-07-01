@@ -3,10 +3,11 @@
 </div>
 
 <br>
+![blog-fronted]()
 
-![Banner]([https://i.imgur.com/VSRYWWe.jpg](https://github.com/brennerpaiva/blog-front-end/assets/114958953/19ca16d5-ff33-4d6e-b499-cb4e79fd4748))
+![Banner](https://github.com/brennerpaiva/blog-front-end/assets/114958953/bb43dc9b-ef0c-4099-9a15-61e1a1634209)
 
-####Visão geral
+##Visão geral
 
 ### O Projeto
 Um blog sobre desenvolvimento front-end criado com as seguintes tecnologias: Typescript, React, Next.js, SCSS e Prismic. A integração com o Prismic permite gerenciar os conteúdos dos artigos de forma dinâmica, tornando simples o ato de criar um novo artigo, editar o texto ou alterar a imagem. Dentro da página de conteúdo, os visitantes têm a possibilidade de visualizar uma lista de títulos de artigos e clicar em um título específico para visualizar o artigo completo.
@@ -65,3 +66,7 @@ npm run dev
 • <img width=20px src="https://skillicons.dev/icons?i=react"> React Icons
 
 </div>
+
+
+
+
