@@ -30,7 +30,7 @@ Melhorar as habilidades em design de interfaces e estilização usando SCSS:
 ### 🖥️ Instruções para rodar localmente:
 #### É possível acessar este projeto pelo deploy, mas caso queira testa-lo localmente para analisar ou até fazer modificações, siga as instruções abaixo!
 
-<strong> 1️⃣ • Clone o repositório usando o GIT </strong>
+<strong> 1️ • Clone o repositório usando o GIT </strong>
 
 ```
 git clone git@github.com:brennerpaiva/blog-front-end.git
@@ -39,7 +39,7 @@ git clone git@github.com:brennerpaiva/blog-front-end.git
 <br>
 
 
-<strong> 2️⃣ • Instale as dependências do projeto</strong>
+<strong> 2️ • Instale as dependências do projeto</strong>
 
 ```
 npm install
@@ -47,7 +47,7 @@ npm install
 
 <br>
 
-<strong> 3️⃣ • Inicie a aplicações em um servidor local</strong>
+<strong> 3 • Inicie a aplicações em um servidor local</strong>
 
 ```
 npm run dev
