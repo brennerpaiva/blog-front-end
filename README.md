@@ -3,7 +3,7 @@
 </div>
 
 <br>
-![Banner](https://github.com/brennerpaiva/blog-front-end/assets/114958953/92d59d39-304f-45ee-88d4-882f84dec716)
+![banner](https://github.com/brennerpaiva/blog-front-end/assets/114958953/92d59d39-304f-45ee-88d4-882f84dec716)
 
 <br> 
 
