@@ -4,7 +4,7 @@
 
 ![banner](https://github.com/brennerpaiva/blog-front-end/assets/114958953/92d59d39-304f-45ee-88d4-882f84dec716)
 
-##Visão geral
+## Visão geral
 
 ### 🗂️ O Projeto
 Um blog sobre desenvolvimento front-end criado com as seguintes tecnologias: Typescript, React, Next.js, SCSS e Prismic. A integração com o Prismic permite gerenciar os conteúdos dos artigos de forma dinâmica, tornando simples o ato de criar um novo artigo, editar o texto ou alterar a imagem. Dentro da página de conteúdo, os visitantes têm a possibilidade de visualizar uma lista de títulos de artigos e clicar em um título específico para visualizar o artigo completo.
