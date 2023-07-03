@@ -16,9 +16,11 @@ Aprender e praticar o uso de tecnologias como:
   * Next.js: Explorar o framework Next.js para criar um aplicativo web de página única (SPA) com suporte a roteamento e        renderização do lado do servidor (SSR).
   * Typescript: Aplicar o uso de tipagem estática fornecido pelo Typescript para melhorar a segurança e a manutenibilidade 
   do código.
+<br/>
 Explorar a integração de um sistema de gerenciamento de conteúdo (CMS) em um projeto React, especificamente o Prismic:
   * Integrar o Prismic ao projeto para permitir a criação, edição e gerenciamento de conteúdos dos artigos de forma   
     dinâmica.
+<br/>
 Melhorar as habilidades em design de interfaces e estilização usando SCSS:
   * Utilizar SCSS (Sass) como pré-processador CSS para aproveitar recursos como variáveis, mixins e aninhamento, 
     facilitando a estilização e manutenção do código.
