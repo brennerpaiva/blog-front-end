@@ -1,34 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <h1>Blog - Front-end Insights</h1>
+</div>
 
-## Getting Started
+![banner](https://github.com/brennerpaiva/blog-front-end/assets/114958953/92d59d39-304f-45ee-88d4-882f84dec716)
 
-First, run the development server:
+## Visão geral
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+### 🗂️ O Projeto
+Um blog sobre desenvolvimento front-end criado com as seguintes tecnologias: Typescript, React, Next.js, SCSS e Prismic. A integração com o Prismic permite gerenciar os conteúdos dos artigos de forma dinâmica, tornando simples o ato de criar um novo artigo, editar o texto ou alterar a imagem. Dentro da página de conteúdo, os visitantes têm a possibilidade de visualizar uma lista de títulos de artigos e clicar em um título específico para visualizar o artigo completo.
+
+🔗 <a href="https://frontend-insights.vercel.app/" target="_blank">Visualizar Deploy</a>
+
+### 📌 Objetivo
+Aprender e praticar o uso de tecnologias como:
+  * Next.js: Explorar o framework Next.js para criar um aplicativo web de página única (SPA) com suporte a roteamento e renderização do lado do servidor (SSR).
+  * Typescript: Aplicar o uso de tipagem estática fornecido pelo Typescript para melhorar a segurança e a manutenibilidade 
+  do código.
+
+<span>Explorar a integração de um sistema de gerenciamento de conteúdo (CMS) em um projeto React, especificamente o Prismic:</span>
+  * Integrar o Prismic ao projeto para permitir a criação, edição e gerenciamento de conteúdos dos artigos de forma   
+    dinâmica.
+    
+<span>Melhorar as habilidades em design de interfaces e estilização usando SCSS:</span>
+  * Utilizar SCSS (Sass) como pré-processador CSS para aproveitar recursos como variáveis, mixins e aninhamento, 
+    facilitando a estilização e manutenção do código.
+  * Criar estilos responsivos que se adaptem a diferentes tamanhos de tela e dispositivos, garantindo uma experiência de 
+    usuário consistente em dispositivos móveis e desktops.
+
+<br>
+
+### 🖥️ Instruções para rodar localmente:
+#### É possível acessar este projeto pelo deploy, mas caso queira testa-lo localmente para analisar ou até fazer modificações, siga as instruções abaixo!
+
+<strong> 1️ • Clone o repositório usando o GIT </strong>
+
+```
+git clone git@github.com:brennerpaiva/blog-front-end.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<strong> 2️ • Instale as dependências do projeto</strong>
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<strong> 3 • Inicie a aplicações em um servidor local</strong>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+<br>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🛠️ Linguagens e ferramentas: 
+• <img width="20px" src="https://skillicons.dev/icons?i=react" alt="testing library icon"/> ReactJS\
+• <img width="20px" src="https://skillicons.dev/icons?i=nextjs" alt="react icon"/> NextJS\
+• <img width="20px" src="https://skillicons.dev/icons?i=typescript" alt="typescript icon"/> TypeScript\
+• <img width="20px" src="https://skillicons.dev/icons?i=scss" alt="styled-components icon"/> SCSS\
+• <img width="20px" src="https://github.com/brennerpaiva/blog-front-end/assets/114958953/a4f8f8f6-3c30-4cb8-a231-1cb909b3cc94" alt="storybook icon"/> Prismic\
+• <img width=20px src="https://skillicons.dev/icons?i=react"> React Icons
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+</div>
+
+
+
+
