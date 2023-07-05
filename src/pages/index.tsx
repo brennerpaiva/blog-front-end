@@ -56,12 +56,9 @@ export default function Home({ content }: ContentProps) {
         <div className={styles.nextLevelContent}>
           <Image quality={100} src={FooterImage} alt="Tecnologias" />
           <h2>
-            Mais de <span>10 mil</span> acompanham o blog diariamente.
+            Explore o Mundo do <span>Front-end</span>
           </h2>
-          <span>
-            Não perca a chance de evoluir cada vez mais e venha fazer parte da
-            nossa comunidade!
-          </span>
+
           <a href="/posts">
             <button>COMEÇAR AGORA!</button>
           </a>
